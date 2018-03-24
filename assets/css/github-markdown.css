@@ -175,6 +175,12 @@
   margin: 0.67em 0;
 }
 
+.markdown-body .emoji{
+  display:inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
 .markdown-body img {
   display: block;
   border-style: none;
