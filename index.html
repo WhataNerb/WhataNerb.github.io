@@ -76,6 +76,17 @@ description: 一些学过的，想过的
                 {% endif %}
             </section>
 
+            <section class="category-card">
+                <div class="category-title"><h3>文章类别</h3></div>
+                <ul>
+                    {% for category in site.categories %}
+                    <li>
+                        <a class="category-item" href="/categories/{{ category | first }}/" title="view allposts">{{ category | first }}({{ category | last | size }})</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
+
             {% if site.recommend-tags and site.tags.size>0 %}
             <section class="tags-card">
                 {% for tag in site.tags %}
