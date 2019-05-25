@@ -2,7 +2,7 @@
 layout: post
 title: '简单了解JSP'
 date: 2017-06-12
-categories: JavaWEB
+categories: Web开发
 tags: JSP JavaWEB 后端 
 ---
 

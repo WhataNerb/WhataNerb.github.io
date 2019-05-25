@@ -2,7 +2,7 @@
 layout: post
 title: 'ArrayList与LinkedList'
 date: 2017-07-30
-categories: Java基础
+categories: Java
 tags: Java ArrayList LinkedList 集合
 ---
 

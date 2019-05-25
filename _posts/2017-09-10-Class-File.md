@@ -2,8 +2,8 @@
 layout: post
 title: 'Class类文件结构概述'
 date: 2017-09-10
-categories: JVM
-tags: JVM
+categories: Java虚拟机
+tags: JVM 虚拟机
 ---
 > 参考文献：周志明《深入理解Java虚拟机》第二版
 

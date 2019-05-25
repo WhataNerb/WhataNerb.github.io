@@ -2,7 +2,7 @@
 layout: post
 title: '线程状态及属性'
 date: 2017-08-16
-categories: Java并发
+categories: 并发
 tags: 并发 Thread 线程
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 title: 'Maven项目中无法找到 xml文件或 properties文件等配置文件的解决方法'
 date: 2018-01-31
-categories: debug Maven
-tags: debug Maven
+categories: debug
+tags: debug IDEA
 ---
 
 在初次使用 Maven 项目的时候总是会遇到一些比较奇异的问题

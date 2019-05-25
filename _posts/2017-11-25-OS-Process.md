@@ -2,8 +2,8 @@
 layout: post
 title: '操作系统进程调度算法(Java 实现)'
 date: 2017-11-25
-categories: Java 操作系统
-tags: Java 操作系统
+categories: 操作系统
+tags: 操作系统 OS
 ---
 ## FCFS(First Come First Server，先来先服务)
 这是最简单，最基本的算法，它的思想非常简单，就是按照进程到来的时间顺序，逐个分配 CPU 资源

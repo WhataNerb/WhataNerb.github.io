@@ -2,7 +2,7 @@
 layout: post
 title: 'Java条件对象（Condition）'
 date: 2017-08-19
-categories: Java并发
+categories: 并发
 tags: Java Thread 并发 Condition
 ---
 通过之前讨论的[锁对象](http://blog.csdn.net/baidu_32045201/article/details/77370320)，我们知道了，由于线程按照时间片调度，所以使用锁对象来在多线程共享资源时保护未执行完成的线程安全。那么，我们再来考虑这样一种情况：

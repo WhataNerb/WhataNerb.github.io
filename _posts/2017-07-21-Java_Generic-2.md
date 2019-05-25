@@ -2,7 +2,7 @@
 layout: post
 title: 'Java泛型详解（下）'
 date: 2017-07-21
-categories: Java基础
+categories: Java
 tags: Java 泛型 面向对象
 ---
 

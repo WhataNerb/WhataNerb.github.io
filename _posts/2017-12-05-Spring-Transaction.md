@@ -2,8 +2,8 @@
 layout: post
 title: 'Spring中的事务传播行为'
 date: 2017-12-05
-categories: Java Spring
-tags: Java Spring
+categories: Web开发 Spring
+tags: Java Spring 后端 Web开发
 ---
 在 Spring 中可以使用 @Transactional 注解，将一个方法标记为一个事务方法
 事务方法具有事务的 [ACID 四大特性](http://blog.csdn.net/baidu_32045201/article/details/77588591)

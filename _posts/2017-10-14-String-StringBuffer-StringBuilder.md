@@ -2,7 +2,7 @@
 layout: post
 title: 'String，StringBuffer，StringBuilder'
 date: 2017-10-14
-categories: Java基础
+categories: Java
 tags: Java String
 ---
 String，StringBuffer，StringBuilder 这三者的区别是 Java 学习中的一个基础知识，也是在面试中经常会问到的一个知识点

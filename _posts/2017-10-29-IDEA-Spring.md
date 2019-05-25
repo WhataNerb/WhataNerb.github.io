@@ -3,7 +3,7 @@ layout: post
 title: 'IDEA中Spring配置错误：class path resource [.xml] cannot be opened because it does not exist'
 date: 2017-10-29
 categories: debug
-tags: debug
+tags: debug IDEA
 ---
 如果在运行 Spring 项目时出现了类似于：
 

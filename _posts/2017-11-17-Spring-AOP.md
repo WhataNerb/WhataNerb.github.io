@@ -2,8 +2,8 @@
 layout: post
 title: 'AOP面向切编程及在Spring中的使用方法'
 date: 2017-11-17
-categories: Java Spring
-tags: Java Spring
+categories: Web开发 Spring
+tags: Java Spring 后端 Web开发
 ---
 ## AOP 简介
 AOP(Aspect-Oriented Programming, 面向切面编程): 是一种新的方法论, 是对传统的 OOP(Object-Oriented Programming, 面向对象编程)的补充

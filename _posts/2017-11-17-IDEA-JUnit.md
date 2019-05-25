@@ -3,7 +3,7 @@ layout: post
 title: 'IDEA手动配置JUnit'
 date: 2017-11-17
 categories: debug
-tags: debug
+tags: debug IDEA
 ---
 ## 安装JUnit
 使用快捷键 ctrl + shift + s 或点击 File->Settings
