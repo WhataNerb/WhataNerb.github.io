@@ -12,6 +12,7 @@ nav:
   home: '/'
   tags: '/tags.html'
   categories: '/categories.html'
+  music: '/music.html'
   about: '/about.html'
 
 # Footer
