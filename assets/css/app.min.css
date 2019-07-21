@@ -270,6 +270,18 @@ a {
     vertical-align: middle
 }
 
+.article-list .article-item .is_top {
+    width: 50px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    left: 600px;
+    background: url(../img/top.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .article-list .article-item .post-preview {
     position: relative
 }
