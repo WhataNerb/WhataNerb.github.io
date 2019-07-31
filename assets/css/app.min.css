@@ -1,11 +1,11 @@
 @font-face {
     font-family: Merriweather;
-    src: url(../fonts/Merriweather-Black.ttf)
+    src: url(../iconfont/Merriweather-Black.ttf)
 }
 
 @font-face {
     font-family: Merriweather-Light;
-    src: url(../fonts/Merriweather-Light.ttf)
+    src: url(../iconfont/Merriweather-Light.ttf)
 }
 
 body, html {
@@ -430,6 +430,22 @@ a {
 
 .author-card .sns-links li .iconfont:hover {
     color: #7b848f
+}
+
+.author-card .sns-links li .icon-csdn:hover {
+    color: #d81e06;
+}
+
+.author-card .sns-links li .icon-qq:hover {
+    color: #64a8f9;
+}
+
+.author-card .sns-links li .icon-qzone:hover {
+    color: #ffce00;
+}
+
+.author-card .sns-links li .icon-wechat:hover {
+    color: #3cb035;
 }
 
 .author-card .sns-links li .icon-weibo:hover {

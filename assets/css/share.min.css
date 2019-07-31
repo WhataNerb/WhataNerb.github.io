@@ -1,7 +1,7 @@
 @font-face {
     font-family: "socialshare";
-    src: url("../fonts/iconfont.eot");
-    src: url("../fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg")
+    src: url("../iconfont/iconfont.eot");
+    src: url("../iconfont/iconfont.eot?#iefix") format("embedded-opentype"), url("../iconfont/iconfont.woff") format("woff"), url("../iconfont/iconfont.ttf") format("truetype"), url("../iconfont/iconfont.svg#iconfont") format("svg")
 }
 
 .social-share {
@@ -17,56 +17,48 @@
     font-family: "socialshare" !important
 }
 
-.social-share .icon-tencent:before {
-    content: "\f07a"
+.social-share .icon-csdn:before {
+    content: "\e605";
+}
+
+.social-share .icon-jianshu {
+    content: "\e63b";
+}
+
+.social-share .icon-juejin {
+    content: "\e602";
+}
+
+.social-share .icon-instargam {
+    content: "\e603";
 }
 
 .social-share .icon-qq:before {
-    content: "\f11a"
+    content: "\e63e"
 }
 
 .social-share .icon-weibo:before {
-    content: "\f12a"
+    content: "\e831"
 }
 
 .social-share .icon-wechat:before {
-    content: "\f09a"
+    content: "\e694"
 }
 
 .social-share .icon-douban:before {
-    content: "\f10a"
-}
-
-.social-share .icon-heart:before {
-    content: "\f20a"
-}
-
-.social-share .icon-like:before {
-    content: "\f00a"
+    content: "\e686"
 }
 
 .social-share .icon-qzone:before {
-    content: "\f08a"
-}
-
-.social-share .icon-linkedin:before {
-    content: "\f01a"
-}
-
-.social-share .icon-diandian:before {
-    content: "\f05a"
+    content: "\e604"
 }
 
 .social-share .icon-facebook:before {
-    content: "\f03a"
-}
-
-.social-share .icon-google:before {
-    content: "\f04a"
+    content: "\e601"
 }
 
 .social-share .icon-twitter:before {
-    content: "\f06a"
+    content: "\e617"
 }
 
 .social-share a {
@@ -97,6 +89,33 @@
     color: #fff
 }
 
+.social-share .icon-csdn {
+    color:  #d81e06;
+}
+
+.social-share .icon-csdn {
+    color: #d81e06;
+    border-color: #d81e06;
+}
+
+.social-share .icon-jianshu {
+    color: #ea6f5a;
+}
+
+.social-share .icon-jianshu {
+    color: #ea6f5a;
+    border-color: #ea6f5a;
+}
+
+.social-share .icon-juejin {
+    color: #1682fc;
+}
+
+.social-share .icon-juejin {
+    color: #1682fc;
+    border-color: #1682fc;
+}
+
 .social-share .icon-weibo {
     color: #ff763b;
     border-color: #ff763b
@@ -104,15 +123,6 @@
 
 .social-share .icon-weibo:hover {
     background: #ff763b
-}
-
-.social-share .icon-tencent {
-    color: #56b6e7;
-    border-color: #56b6e7
-}
-
-.social-share .icon-tencent:hover {
-    background: #56b6e7
 }
 
 .social-share .icon-qq {
@@ -142,15 +152,6 @@
     background: #33b045
 }
 
-.social-share .icon-linkedin {
-    color: #0077B5;
-    border-color: #0077B5
-}
-
-.social-share .icon-linkedin:hover {
-    background: #0077B5
-}
-
 .social-share .icon-facebook {
     color: #44619D;
     border-color: #44619D
@@ -160,15 +161,6 @@
     background: #44619D
 }
 
-.social-share .icon-google {
-    color: #db4437;
-    border-color: #db4437
-}
-
-.social-share .icon-google:hover {
-    background: #db4437
-}
-
 .social-share .icon-twitter {
     color: #55acee;
     border-color: #55acee
@@ -176,15 +168,6 @@
 
 .social-share .icon-twitter:hover {
     background: #55acee
-}
-
-.social-share .icon-diandian {
-    color: #307DCA;
-    border-color: #307DCA
-}
-
-.social-share .icon-diandian:hover {
-    background: #307DCA
 }
 
 .social-share .icon-wechat {

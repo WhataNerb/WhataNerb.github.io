@@ -56,7 +56,7 @@ mathjax: true
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter', 'qzone']
 
 # theme color 主题皮肤
 theme-color: 'pink'  # pink or default
@@ -64,14 +64,12 @@ theme-color: 'pink'  # pink or default
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
 
-# SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+# SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, jianshu, wechat, qzone
 sns:
   email: 'dht925nerd@126.com'
-#  weibo: '//weibo.com/lovecolcol'
-#  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-#  instagram: '//www.instagram.com/steveliaocn'
   github: 'https://github.com/DangHT'
   zhihu: 'https://www.zhihu.com/people/dang-hao-tian-39/activities'
+  csdn: 'https://blog.csdn.net/baidu_32045201'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
