@@ -60,9 +60,24 @@ tags: 网络
 
 你的交换机收到后，重新包装数据帧，再发送给你的路由器：
 ![这里写图片描述](http://img.blog.csdn.net/20171021190401424?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfMzIwNDUyMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-你的路由器利用 NAT，将 IP 改为自己的对外的 IP，再根据路由表选择一条合适的路径：
-![这里写图片描述](http://img.blog.csdn.net/20171021190539539?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmFpZHVfMzIwNDUyMDE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-
+你的路由器利用 NAT(Network Address Translation)，将你的主机IP（局域网IP）转换为外网IP，还会修改端口号，对外完全隐藏你的主机，再根据路由表选择一条合适的路径进行转发：
+*（这里感谢@yc2503的指正）*
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019082810413784.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMyMDQ1MjAx,size_16,color_FFFFFF,t_70)
 在接下来的过程中，每个节点都只改变 MAC 地址，然后在网络中一路向着目的地发送
+
+### 关于NAT：
+NAT是一种网络隐蔽技术，它通过建立IP地址映射来隐藏内部的网络
+它的主要功能有：
+- 提高内部网络的安全性
+- 共享网络地址，减少地址消耗
+
+NAT主要有三种实现方式：
+- 静态NAT（Basic NAT）：最基本的网络转换实现，只转换IP地址，建立IP地址的一对一映射，不支持端口转换
+- 网络地址端口转换（NAPT）：这种方式支持端口的映射，并允许多台主机共享一个公网IP地址
+- 端口多路复用（Port address Translation,PAT)：是指改变外出数据包的源端口并进行端口转换，即端口地址转换.采用端口多路复用方式。
+
+> 1.[百度百科](https://baike.baidu.com/item/nat/320024)
+> 2.[维基百科](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2)
+
 
 
