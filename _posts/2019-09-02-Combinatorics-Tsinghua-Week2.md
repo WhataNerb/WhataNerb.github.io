@@ -58,7 +58,7 @@ tags: 组合数学 数学 排列组合
 
 3）路径必须经过A和C
 
-![](C:\Users\dht92\Desktop\QQ截图20190902162811.jpg)
+![](https://img-blog.csdnimg.cn/20190902194446293.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMyMDQ1MjAx,size_16,color_FFFFFF,t_70)
 
 分析：
 
@@ -88,7 +88,7 @@ C(5, 2) \* C(8, 3) = 10 \* 56 = **560**
 
 可以将问题想像成可重组合模型
 
-![](C:\Users\dht92\Desktop\QQ截图20190902192002.jpg)
+![](https://img-blog.csdnimg.cn/20190902194503241.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2JhaWR1XzMyMDQ1MjAx,size_16,color_FFFFFF,t_70)
 
 根据表中的模型，其中把孩子当作水果（选出y个第x种水果拼果盘 == 选出y个水果给第x个小孩），套用公式：
 
