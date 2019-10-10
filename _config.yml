@@ -67,7 +67,7 @@ postPatterns: 'circuitBoard'
 
 # SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, jianshu, wechat, qzone
 sns:
-  email: 'dht925nerd@126.com'
+  email: 'mailto:dht925nerd@126.com'
   github: 'https://github.com/DangHT'
   zhihu: 'https://www.zhihu.com/people/dang-hao-tian-39/activities'
   csdn: 'https://blog.csdn.net/baidu_32045201'
