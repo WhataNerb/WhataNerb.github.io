@@ -20,10 +20,10 @@ footer:
   since: 2019
 
 # Author 配置博主信息
-author: '党昊天'
-nickname: '党昊天'
+author: 'DangHT'
+nickname: 'DangHT'
 bio: 'Happy Coding!'
-avatar: '/assets/img/profile.jpg'
+avatar: '/assets/img/profile_s.jpg'
 
 # Search
 search: true
