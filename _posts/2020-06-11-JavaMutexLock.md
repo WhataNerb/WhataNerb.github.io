@@ -95,8 +95,7 @@ class SafeCalc {
 class Account {
     private int balance;
     // 转账
-    void transfer(
-        Account target, int amt){
+    void transfer(Account target, int amt){
         if (this.balance > amt) {
             this.balance -= amt;
             target.balance += amt;
@@ -111,8 +110,7 @@ class Account {
 class Account {
     private int balance;
     // 转账
-    synchronized void transfer(
-        Account target, int amt){
+    synchronized void transfer(Account target, int amt){
         if (this.balance > amt) {
             this.balance -= amt;
             target.balance += amt;
